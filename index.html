@@ -31,7 +31,8 @@
                         <li class="nav-item"><a class="nav-link fw-normal text-uppercase" href="#">Events</a></li>
                         <li class="nav-item"><a class="nav-link fw-normal text-uppercase" href="#">Feed</a></li>
                         <li class="nav-item"><a class="nav-link fw-normal text-uppercase" href="#">User Name</a></li>
-                        <li class="nav-item ms-lg-2"><a class="btn logout-btn border-0 fw-semibold" href="#">Log Out</a></li>
+                        <li class="nav-item ms-lg-2"><a class="btn logout-btn border-0 fw-semibold" href="#">Log Out</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -67,14 +68,16 @@
                         <path d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z" />
                         <circle cx="12" cy="9" r="2.4" />
                     </svg>
-                    <div><span class="d-block fw-medium">Location</span><small class="d-block fw-normal">Search by city</small></div>
+                    <div><span class="d-block fw-medium">Location</span><small class="d-block fw-normal">Search by
+                            city</small></div>
                 </div>
                 <div class="divider d-flex align-items-center justify-content-center">
                     <img class="d-block" src="./assets/images/svg/line.svg" alt="divider">
                 </div>
                 <div class="search-item d-flex align-items-center">
                     <img src="./assets/images/webp/vector1.webp" alt="calender">
-                    <div><span class="d-block fw-medium">Date</span><small class="d-block fw-normal">09/26/2021</small></div>
+                    <div><span class="d-block fw-medium">Date</span><small class="d-block fw-normal">09/26/2021</small>
+                    </div>
                 </div>
                 <div class="divider d-flex align-items-center justify-content-center">
                     <img class="d-block" src="./assets/images/svg/line.svg" alt="divider">
@@ -86,7 +89,8 @@
                         <circle cx="19" cy="10" r="2" />
                         <path d="M7 20v-3a5 5 0 0 1 10 0v3M2 19v-2a3 3 0 0 1 4-3M22 19v-2a3 3 0 0 0-4-3" />
                     </svg>
-                    <div><span class="d-block fw-medium">Capacity</span><small class="d-block fw-normal">Search by city</small></div>
+                    <div><span class="d-block fw-medium">Capacity</span><small class="d-block fw-normal">Search by
+                            city</small></div>
                 </div>
                 <div class="divider d-flex align-items-center justify-content-center">
                     <img class="d-block" src="./assets/images/svg/line.svg" alt="divider">
@@ -95,14 +99,15 @@
             </div>
         </div>
     </header>
-
     <section class="special-section position-relative overflow-hidden bg-white text-black">
-        <div class="container special-container d-flex justify-content-between">
-            <div class="row d-flex align-items-center gy-5 w-100">
-                <div class="col-lg-5">
+        <div class="container special-container">
+            <div class="special-layout d-flex align-items-center">
+                <div class="special-media-wrap">
                     <div class="special-media position-relative mx-auto">
-                        <img class="d-block w-100 h-auto" src="assets/images/png/Microsoft Surface Hub.png" alt="Speaker presenting to an audience">
-                        <button class="play-button position-absolute p-0 text-white" type="button" aria-label="Play presentation video">
+                        <img class="d-block w-100 h-auto" src="assets/images/png/Microsoft Surface Hub.png"
+                            alt="Speaker presenting to an audience">
+                        <button class="play-button position-absolute p-0 text-white" type="button"
+                            aria-label="Play presentation video">
                             <svg viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M9 7.5v9l7-4.5-7-4.5Z" />
                             </svg>
@@ -110,7 +115,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-7">
+                <div class="special-content-wrap">
                     <div class="special-content">
                         <div class="section-accent d-flex" aria-hidden="true">
                             <span></span><span></span>
@@ -123,42 +128,67 @@
                         </p>
 
                         <div class="special-cards d-grid">
-                            <article class="special-card special-card-filled position-relative text-center">
+                            <article class="special-card position-relative text-center">
                                 <div class="special-icon position-absolute d-grid">
-                                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                                        <rect x="3.5" y="4.5" width="12" height="10" rx="2" />
-                                        <rect x="8.5" y="9.5" width="12" height="10" rx="2" />
-                                        <path d="m12 12 3 2-3 2v-4Z" />
+                                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 6C0 4.4087 0.632141 2.88258 1.75736 1.75736C2.88258 0.632141 4.4087 0 6 0H18C19.5913 0 21.1174 0.632141 22.2426 1.75736C23.3679 2.88258 24 4.4087 24 6C24 6.31826 23.8736 6.62348 23.6485 6.84853C23.4235 7.07357 23.1183 7.2 22.8 7.2C22.4817 7.2 22.1765 7.07357 21.9515 6.84853C21.7264 6.62348 21.6 6.31826 21.6 6C21.6 5.04522 21.2207 4.12955 20.5456 3.45442C19.8705 2.77928 18.9548 2.4 18 2.4H6C5.04522 2.4 4.12955 2.77928 3.45442 3.45442C2.77928 4.12955 2.4 5.04522 2.4 6V18C2.4 18.9548 2.77928 19.8705 3.45442 20.5456C4.12955 21.2207 5.04522 21.6 6 21.6H16.8336C16.982 20.2814 17.6107 19.0636 18.5997 18.1789C19.5888 17.2943 20.8689 16.8048 22.1958 16.8039C23.5227 16.8029 24.8036 17.2905 25.7939 18.1737C26.7842 19.0569 27.4147 20.2738 27.565 21.5922C27.7153 22.9106 27.3749 24.2382 26.6088 25.3216C25.8426 26.405 24.7044 27.1685 23.4113 27.4662C22.1182 27.7639 20.7608 27.5751 19.598 26.9358C18.4352 26.2964 17.5486 25.2514 17.1072 24H6C4.4087 24 2.88258 23.3679 1.75736 22.2426C0.632141 21.1174 0 19.5913 0 18V6ZM10.8 26.4C10.4817 26.4 10.1765 26.5264 9.95147 26.7515C9.72643 26.9765 9.6 27.2817 9.6 27.6C9.6 29.1913 10.2321 30.7174 11.3574 31.8426C12.4826 32.9679 14.0087 33.6 15.6 33.6H27.6C29.1913 33.6 30.7174 32.9679 31.8426 31.8426C32.9679 30.7174 33.6 29.1913 33.6 27.6V15.6C33.6 14.0087 32.9679 12.4826 31.8426 11.3574C30.7174 10.2321 29.1913 9.6 27.6 9.6H16.4928C16.0514 8.34862 15.1648 7.30355 14.002 6.66423C12.8392 6.02491 11.4818 5.8361 10.1887 6.13382C8.89558 6.43154 7.75736 7.19496 6.99124 8.27838C6.22511 9.36181 5.88472 10.6894 6.03502 12.0078C6.18532 13.3262 6.81578 14.5431 7.8061 15.4263C8.79642 16.3095 10.0773 16.7971 11.4042 16.7961C12.7311 16.7952 14.0112 16.3057 15.0003 15.4211C15.9893 14.5364 16.618 13.3186 16.7664 12H27.6C28.5548 12 29.4705 12.3793 30.1456 13.0544C30.8207 13.7295 31.2 14.6452 31.2 15.6V27.6C31.2 28.5548 30.8207 29.4705 30.1456 30.1456C29.4705 30.8207 28.5548 31.2 27.6 31.2H15.6C14.6452 31.2 13.7295 30.8207 13.0544 30.1456C12.3793 29.4705 12 28.5548 12 27.6C12 27.2817 11.8736 26.9765 11.6485 26.7515C11.4235 26.5264 11.1183 26.4 10.8 26.4Z"
+                                            fill="#2C49FE" />
                                     </svg>
+
                                 </div>
                                 <h3 class="fw-medium">Sharing</h3>
-                                <p class="w-100 m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur
+                                <p class="w-100 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nunc efficitur
                                     urna in</p>
                             </article>
 
                             <article class="special-card position-relative text-center">
                                 <div class="special-icon position-absolute d-grid">
-                                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                                        <rect x="4" y="5" width="13" height="13" rx="2" />
-                                        <circle cx="15.5" cy="13.5" r="4" />
-                                        <path d="M15.5 11.5v2.5l1.5 1" />
+                                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M28.875 9.28125C28.875 7.91373 28.3318 6.60222 27.3648 5.63523C26.3978 4.66825 25.0863 4.125 23.7188 4.125H9.28125C7.91373 4.125 6.60222 4.66825 5.63523 5.63523C4.66825 6.60222 4.125 7.91373 4.125 9.28125V23.7188C4.125 25.0863 4.66825 26.3978 5.63523 27.3648C6.60222 28.3318 7.91373 28.875 9.28125 28.875H12.9051C12.3798 28.2388 11.9254 27.5472 11.55 26.8125H9.28125C8.46074 26.8125 7.67383 26.4866 7.09364 25.9064C6.51345 25.3262 6.1875 24.5393 6.1875 23.7188V12.375H15.1326C16.9785 11.0756 19.2287 10.3125 21.6562 10.3125C24.3994 10.3125 26.9156 11.286 28.875 12.9051V9.28125ZM21.6562 10.3125H6.1875V9.28125C6.1875 8.46074 6.51345 7.67383 7.09364 7.09364C7.67383 6.51345 8.46074 6.1875 9.28125 6.1875H23.7188C24.5393 6.1875 25.3262 6.51345 25.9064 7.09364C26.4866 7.67383 26.8125 8.46074 26.8125 9.28125V10.3125H21.6562ZM20.3672 17.5312C20.3672 17.1894 20.503 16.8615 20.7447 16.6197C20.9865 16.378 21.3144 16.2422 21.6562 16.2422C21.9981 16.2422 22.326 16.378 22.5678 16.6197C22.8095 16.8615 22.9453 17.1894 22.9453 17.5312C22.9453 17.8731 22.8095 18.201 22.5678 18.4428C22.326 18.6845 21.9981 18.8203 21.6562 18.8203C21.3144 18.8203 20.9865 18.6845 20.7447 18.4428C20.503 18.201 20.3672 17.8731 20.3672 17.5312ZM22.6875 25.7812C22.6875 26.0548 22.5789 26.3171 22.3855 26.5105C22.1921 26.7039 21.9298 26.8125 21.6562 26.8125C21.3827 26.8125 21.1204 26.7039 20.927 26.5105C20.7336 26.3171 20.625 26.0548 20.625 25.7812V21.6562C20.625 21.3827 20.7336 21.1204 20.927 20.927C21.1204 20.7336 21.3827 20.625 21.6562 20.625C21.9298 20.625 22.1921 20.7336 22.3855 20.927C22.5789 21.1204 22.6875 21.3827 22.6875 21.6562V25.7812ZM12.375 21.6562C12.375 20.4374 12.6151 19.2305 13.0815 18.1045C13.5479 16.9784 14.2316 15.9553 15.0934 15.0934C15.9553 14.2316 16.9784 13.5479 18.1045 13.0815C19.2305 12.6151 20.4374 12.375 21.6562 12.375C22.8751 12.375 24.082 12.6151 25.208 13.0815C26.3341 13.5479 27.3572 14.2316 28.2191 15.0934C29.0809 15.9553 29.7646 16.9784 30.231 18.1045C30.6974 19.2305 30.9375 20.4374 30.9375 21.6562C30.9375 24.1178 29.9597 26.4785 28.2191 28.2191C26.4785 29.9597 24.1178 30.9375 21.6562 30.9375C19.1947 30.9375 16.834 29.9597 15.0934 28.2191C13.3528 26.4785 12.375 24.1178 12.375 21.6562ZM14.4375 21.6562C14.4375 23.5708 15.198 25.4069 16.5518 26.7607C17.9056 28.1145 19.7417 28.875 21.6562 28.875C23.5708 28.875 25.4069 28.1145 26.7607 26.7607C28.1145 25.4069 28.875 23.5708 28.875 21.6562C28.875 19.7417 28.1145 17.9056 26.7607 16.5518C25.4069 15.198 23.5708 14.4375 21.6562 14.4375C19.7417 14.4375 17.9056 15.198 16.5518 16.5518C15.198 17.9056 14.4375 19.7417 14.4375 21.6562Z"
+                                            fill="#2C49FE" />
                                     </svg>
+
                                 </div>
                                 <h3 class="fw-medium">Info</h3>
-                                <p class="w-100 m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur
+                                <p class="w-100 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nunc efficitur
                                     urna in</p>
                             </article>
 
                             <article class="special-card special-card-help position-relative text-center">
                                 <div class="special-icon position-absolute d-grid">
-                                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                                        <circle cx="8" cy="7" r="2.5" />
-                                        <circle cx="17" cy="6" r="2" />
-                                        <path d="M3.5 17v-2.5a4.5 4.5 0 0 1 9 0V17M14.5 11h5v8h-5zM17 11V9" />
+                                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_34717_6864)">
+                                            <path
+                                                d="M29.8125 11.0416H23.1875C22.3092 11.0425 21.4672 11.3918 20.8462 12.0128C20.2252 12.6338 19.8759 13.4759 19.875 14.3541V20.9791C19.8756 21.5646 20.1084 22.126 20.5225 22.54C20.9365 22.954 21.4978 23.1869 22.0833 23.1875V30.9166C22.0839 31.5021 22.3168 32.0635 22.7308 32.4775C23.1448 32.8915 23.7062 33.1244 24.2917 33.125H28.7083C29.2938 33.1244 29.8552 32.8915 30.2692 32.4775C30.6832 32.0635 30.9161 31.5021 30.9167 30.9166V23.1875C31.5022 23.1869 32.0635 22.954 32.4775 22.54C32.8916 22.126 33.1244 21.5646 33.125 20.9791V14.3541C33.1241 13.4759 32.7748 12.6338 32.1538 12.0128C31.5328 11.3918 30.6908 11.0425 29.8125 11.0416ZM30.9167 20.9791H28.7083V30.9166H24.2917V20.9791H22.0833V14.3541C22.0833 14.0613 22.1997 13.7804 22.4067 13.5734C22.6138 13.3663 22.8947 13.25 23.1875 13.25H29.8125C30.1053 13.25 30.3862 13.3663 30.5933 13.5734C30.8003 13.7804 30.9167 14.0613 30.9167 14.3541V20.9791Z"
+                                                fill="#2C49FE" />
+                                            <path
+                                                d="M22.084 5.52079C22.084 4.64726 22.343 3.79334 22.8283 3.06703C23.3136 2.34071 24.0034 1.77461 24.8105 1.44033C25.6175 1.10604 26.5056 1.01857 27.3623 1.18899C28.219 1.35941 29.006 1.78006 29.6237 2.39774C30.2414 3.01542 30.662 3.8024 30.8325 4.65915C31.0029 5.5159 30.9154 6.40394 30.5811 7.21098C30.2468 8.01802 29.6807 8.70781 28.9544 9.19312C28.2281 9.67843 27.3742 9.93746 26.5007 9.93746C25.3296 9.93629 24.2069 9.47059 23.3789 8.64256C22.5509 7.81453 22.0852 6.69181 22.084 5.52079ZM24.2923 5.52079C24.2923 5.95756 24.4218 6.38452 24.6645 6.74768C24.9071 7.11084 25.252 7.39389 25.6556 7.56103C26.0591 7.72817 26.5031 7.77191 26.9315 7.6867C27.3599 7.60149 27.7533 7.39116 28.0622 7.08232C28.371 6.77348 28.5813 6.37999 28.6666 5.95162C28.7518 5.52324 28.708 5.07922 28.5409 4.6757C28.3737 4.27218 28.0907 3.92729 27.7275 3.68463C27.3644 3.44198 26.9374 3.31246 26.5007 3.31246C25.9151 3.31305 25.3538 3.5459 24.9398 3.95991C24.5258 4.37393 24.2929 4.93529 24.2923 5.52079Z"
+                                                fill="#2C49FE" />
+                                            <path
+                                                d="M15.4583 17.6666V14.3541C15.4575 13.4759 15.1082 12.6338 14.4872 12.0128C13.8661 11.3918 13.0241 11.0425 12.1458 11.0416H5.52083C4.64257 11.0425 3.80053 11.3918 3.17951 12.0128C2.55849 12.6338 2.20921 13.4759 2.20833 14.3541V17.6666H0V19.875H17.6667V17.6666H15.4583ZM4.41667 14.3541C4.41667 14.0613 4.533 13.7804 4.74007 13.5734C4.94714 13.3663 5.22799 13.25 5.52083 13.25H12.1458C12.4387 13.25 12.7195 13.3663 12.9266 13.5734C13.1337 13.7804 13.25 14.0613 13.25 14.3541V17.6666H4.41667V14.3541Z"
+                                                fill="#2C49FE" />
+                                            <path
+                                                d="M4.41602 5.52079C4.41602 4.64726 4.67505 3.79334 5.16036 3.06703C5.64567 2.34071 6.33546 1.77461 7.1425 1.44033C7.94954 1.10604 8.83758 1.01857 9.69433 1.18899C10.5511 1.35941 11.3381 1.78006 11.9557 2.39774C12.5734 3.01542 12.9941 3.8024 13.1645 4.65915C13.3349 5.5159 13.2474 6.40394 12.9132 7.21098C12.5789 8.01802 12.0128 8.70781 11.2865 9.19312C10.5601 9.67843 9.70622 9.93746 8.83268 9.93746C7.66167 9.93629 6.53895 9.47059 5.71092 8.64256C4.88289 7.81453 4.41718 6.69181 4.41602 5.52079ZM6.62435 5.52079C6.62435 5.95756 6.75387 6.38452 6.99652 6.74768C7.23918 7.11084 7.58407 7.39389 7.98759 7.56103C8.39111 7.72817 8.83513 7.77191 9.26351 7.6867C9.69188 7.60149 10.0854 7.39116 10.3942 7.08232C10.7031 6.77348 10.9134 6.37999 10.9986 5.95162C11.0838 5.52324 11.0401 5.07922 10.8729 4.6757C10.7058 4.27218 10.4227 3.92729 10.0596 3.68463C9.69641 3.44198 9.26945 3.31246 8.83268 3.31246C8.24718 3.31305 7.68582 3.5459 7.2718 3.95991C6.85778 4.37393 6.62493 4.93529 6.62435 5.52079Z"
+                                                fill="#2C49FE" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_34717_6864">
+                                                <rect width="35.3333" height="35.3333" fill="white" />
+                                            </clipPath>
+                                        </defs>
                                     </svg>
+
                                 </div>
                                 <h3 class="fw-medium">Help</h3>
-                                <p class="w-100 m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur
+                                <p class="w-100 m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nunc efficitur
                                     urna in</p>
                             </article>
                         </div>
@@ -224,23 +254,28 @@
                 <div class="latest-text">
                     <div class="section-accent d-flex"><span></span><span></span></div>
                     <h2 class="fw-bold">Explore our<br>latest events</h2>
-                    <p class="m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit.
+                    <p class="m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur
+                        urna in dictum suscipit.
                         Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu.</p>
                     <a class="d-inline-block text-decoration-none fw-bold text-black" href="#">LEARN MORE</a>
                 </div>
 
                 <div class="event-card d-flex flex-column align-items-start bg-white">
-                    <img class="d-block w-100 mx-auto object-fit-cover" src="assets/images/png/Rectangle31.png" alt="Event">
+                    <img class="d-block w-100 mx-auto object-fit-cover" src="assets/images/png/Rectangle31.png"
+                        alt="Event">
                     <small class="d-block fw-normal">09/25/2021</small>
                     <h3 class="d-block w-100 fw-medium">Lorem ipsum</h3>
-                    <p class="d-block m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in </p>
+                    <p class="d-block m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                        efficitur urna in </p>
                 </div>
 
                 <div class="event-card d-flex flex-column align-items-start bg-white">
-                    <img class="d-block w-100 mx-auto object-fit-cover" src="assets/images/png/Rectangle32.png" alt="Event">
+                    <img class="d-block w-100 mx-auto object-fit-cover" src="assets/images/png/Rectangle32.png"
+                        alt="Event">
                     <small class="d-block fw-normal">09/21/2022</small>
                     <h3 class="d-block w-100 fw-medium">Lorem ipsum</h3>
-                    <p class="d-block m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in </p>
+                    <p class="d-block m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                        efficitur urna in </p>
                 </div>
             </div>
 
@@ -252,7 +287,8 @@
                 <div class="join-form">
                     <div class="section-accent d-flex"><span></span><span></span></div>
                     <h2 class="fw-bold">Join Us !</h2>
-                    <p class="m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit.
+                    <p class="m-0 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur
+                        urna in dictum suscipit.
                         Suspendisse maximus ipsum sem. Donec ut justo et leo congue </p>
 
                     <h3 class="fw-bold">Sign Up</h3>
@@ -289,14 +325,16 @@
                     </p>
 
                     <div class="footer-socials d-flex">
-                        <a class="text-decoration-none d-grid" href="https://www.instagram.com/" target="_blank"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                        <a class="text-decoration-none d-grid" href="https://www.instagram.com/" target="_blank"><svg
+                                width="23" height="23" viewBox="0 0 23 23" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M11.2058 6.06667C10.19 6.06667 9.19704 6.36773 8.35242 6.93179C7.50781 7.49585 6.84952 8.29756 6.46078 9.23556C6.07205 10.1736 5.97034 11.2057 6.16852 12.2015C6.36669 13.1972 6.85585 14.1119 7.57413 14.8298C8.29241 15.5477 9.20756 16.0366 10.2039 16.2347C11.2001 16.4328 12.2328 16.3311 13.1713 15.9426C14.1098 15.5541 14.9119 14.8961 15.4763 14.0519C16.0406 13.2078 16.3418 12.2153 16.3418 11.2C16.3403 9.83903 15.7987 8.53424 14.8358 7.57189C13.873 6.60954 12.5675 6.06821 11.2058 6.06667V6.06667ZM11.2058 15.4C10.3747 15.4 9.56227 15.1537 8.87123 14.6922C8.18018 14.2307 7.64157 13.5747 7.32352 12.8073C7.00547 12.0398 6.92225 11.1953 7.08439 10.3806C7.24653 9.5659 7.64675 8.81753 8.23444 8.23015C8.82213 7.64277 9.57089 7.24276 10.386 7.0807C11.2012 6.91864 12.0461 7.00182 12.8139 7.31971C13.5818 7.63759 14.2381 8.17592 14.6998 8.86661C15.1616 9.55729 15.408 10.3693 15.408 11.2C15.4068 12.3135 14.9637 13.3811 14.1759 14.1685C13.3881 14.9559 12.3199 15.3988 11.2058 15.4ZM16.3418 0H6.06983C4.46057 0.00182184 2.91774 0.641572 1.77982 1.7789C0.641906 2.91622 0.00182279 4.45825 0 6.06667V16.3333C0.00182279 17.9418 0.641906 19.4838 1.77982 20.6211C2.91774 21.7584 4.46057 22.3982 6.06983 22.4H16.3418C17.9511 22.3982 19.4939 21.7584 20.6318 20.6211C21.7698 19.4838 22.4099 17.9418 22.4117 16.3333V6.06667C22.4099 4.45825 21.7698 2.91622 20.6318 1.7789C19.4939 0.641572 17.9511 0.00182184 16.3418 0V0ZM21.4779 16.3333C21.4763 17.6943 20.9347 18.9991 19.9718 19.9614C19.009 20.9238 17.7035 21.4651 16.3418 21.4667H6.06983C4.70815 21.4651 3.40268 20.9238 2.43983 19.9614C1.47697 18.9991 0.935364 17.6943 0.93382 16.3333V6.06667C0.935364 4.7057 1.47697 3.40091 2.43983 2.43856C3.40268 1.4762 4.70815 0.934877 6.06983 0.933333H16.3418C17.7035 0.934877 19.009 1.4762 19.9718 2.43856C20.9347 3.40091 21.4763 4.7057 21.4779 6.06667V16.3333ZM18.2095 5.13333C18.2095 5.31793 18.1547 5.49838 18.0521 5.65187C17.9495 5.80535 17.8037 5.92498 17.633 5.99562C17.4624 6.06626 17.2746 6.08475 17.0935 6.04873C16.9123 6.01272 16.746 5.92383 16.6154 5.7933C16.4848 5.66277 16.3958 5.49647 16.3598 5.31542C16.3238 5.13437 16.3422 4.94671 16.4129 4.77616C16.4836 4.60562 16.6033 4.45985 16.7569 4.3573C16.9104 4.25474 17.091 4.2 17.2757 4.2C17.5232 4.20031 17.7606 4.29874 17.9356 4.47371C18.1107 4.64868 18.2092 4.88589 18.2095 5.13333V5.13333Z"
                                     fill="white" />
                             </svg>
                         </a>
-                        <a class="text-decoration-none d-grid" href="https://www.facebook.com/" target="_blank"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                        <a class="text-decoration-none d-grid" href="https://www.facebook.com/" target="_blank"><svg
+                                width="23" height="23" viewBox="0 0 23 23" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M11.2303 0C5.03842 0 0 5.0344 0 11.2238C0 17.4132 5.03842 22.4476 11.2303 22.4476C17.4223 22.4476 22.4607 17.4132 22.4607 11.2238C22.4607 5.0344 17.4223 0 11.2303 0ZM11.2303 21.7C5.45094 21.7 0.74939 17.0002 0.74939 11.2238C0.74939 5.4474 5.45094 0.7476 11.2303 0.7476C17.0098 0.7476 21.7113 5.4474 21.7113 11.2238C21.7113 17.0002 17.0098 21.7 11.2303 21.7Z"
@@ -306,8 +344,8 @@
                                     fill="white" />
                             </svg>
                         </a>
-                        <a class="text-decoration-none d-grid" href="https://x.com/" target="blank"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                        <a class="text-decoration-none d-grid" href="https://x.com/" target="blank"><svg width="23"
+                                height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_120426_273)">
                                     <path
                                         d="M11.205 -0.0238037C5.01303 -0.0238037 -0.0253906 5.0106 -0.0253906 11.2C-0.0253906 17.3894 5.01303 22.4238 11.205 22.4238C17.3969 22.4238 22.4353 17.3894 22.4353 11.2C22.4353 5.0106 17.3969 -0.0238037 11.205 -0.0238037ZM11.205 21.6762C5.42555 21.6762 0.724 16.9764 0.724 11.2C0.724 5.4236 5.42555 0.723796 11.205 0.723796C16.9844 0.723796 21.6859 5.4236 21.6859 11.2C21.6859 16.9764 16.9844 21.6762 11.205 21.6762Z"
@@ -360,7 +398,7 @@
 
             </div>
 
-            <p class="footer-copy text-center">© Credits of companyName belong to companyName.</p>
+            <p class="footer-copy text-center fw-normal">© Credits of companyName belong to companyName.</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
